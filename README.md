@@ -112,3 +112,20 @@ In linked list execution of a queue, the node inserted last is pointed always by
 
 In the above example, the node last inserted is 50 and it is directed by ‘rear’ and the node first inserted is 10 and it is directed by ‘front’. The sequence of elements inserted is 10, 15, 22, and 50.
 
+Implementation of Graphs
+
+Processes with a graph depicted by an adjacency matrix are quicker. But if a graph is big we can’t make use of such an enormous matrix to depict a graph, hence we should make use of a cluster of adjacency lists, which is tighter. Utilizing adjacency lists is the most preferred option when a graph is sparse. Talking about the representation of graphs. Let’s look at the easiest implementation to depict a graph by an array of adjacency lists. The primary idea of this method is stowing a linked list of adjacent vertices for every vertex. We substitute the single integer value head by once more array (call it heads), which includes the head of the list of contiguous vertices for every vertex. Other arrays like data and next stay common for all other vertices. And another point about utilizing arrays rather than class: we ought to know what cells in arrays are free and what is employed, in our execution we describe the variable used, which includes a number of used cells and when we have to acquire a free cell we will take (used + 1). Therefore, we acquire an implementation of a data structure for depicting graphs (call it MultiList – list having multiple heads). Java code for the defined implementation:
+
+![image](https://user-images.githubusercontent.com/81725794/179825695-01e1ad22-ad8a-493e-800e-3cd275d64233.png)
+
+![image](https://user-images.githubusercontent.com/81725794/179825707-57bee5e4-815a-4718-873e-06b830fae95a.png)
+
+Implementing Hash Tables
+
+Hash Tables give a subset of the dynamic set operations. Generally, a collection of keys are mapped with some values on the basis of specific relations. Nevertheless, situations can arise when various keys map to the exact position provided by the Hash function, causing a collision. This situation can be solved by Hash Table Chaining. The chaining approach solves collisions by moving ahead and putting all the keys that map to a slot in that slot but depicting them as a linked list. Hash Table chaining in Java is achievable with both, Doubly Linked List and Singly Linked List. Though the execution is the same, the only distinction is that Doubly Linked List permits two-way traversal meaning, the node includes a pointer to the next along with the previous node. Therefore, the complexity of deletion and insertion at a known position lowers to O(1) as compared to the Singly Linked List (O(n)).
+
+Example:
+
+![image](https://user-images.githubusercontent.com/81725794/179825761-90f2e28a-c683-4679-b5c9-d6ea402a53be.png)
+
+
