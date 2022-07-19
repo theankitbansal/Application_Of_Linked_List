@@ -171,3 +171,24 @@ A file of enormous size may not be stowed in one place on a disk. Hence, there h
 
 This is a much more effective approach, and it averts the unnecessary wastage of space. Also, linked list allocation causes less load on the directory since it just needs to include the starting and finishing pointers of the file.
 
+Memory Management with Linked List
+
+Another method that can be used to keep a track of memory is to own a linked list of free memory segments and allocated memory segments, where a segment can be a process or a hole between the two processes.
+
+When holes and processes are maintained on a list that is sorted by address, numerous algorithms can be utilized to allot memory for a recently built process or a current process being exchanged in from the disk. We consider here that memory knows how much memory to allocate. There are various kinds of algorithms to accomplish this.
+
+The table mentioned below explains those various types of algorithms:
+
+First fit:  Here, the memory manager inspects along with the list of segments till it locates a hole big enough. The hole is split into two parts, for process, and for unused memory. This algorithm is fast as it searches as little as possible.
+Next fit: This algorithm operates in an exact manner as the first-fit algorithm, except that it keeps track of whenever it locates a suitable hole. The next time it is called to find a hole, it begins scouring the list from the exact place it left off last time.
+Best fit: Best fit algorithm looks for the whole list and takes the tiniest hole that is adequate. Instead of splitting up a big hole that might be required later, this algorithm attempts to look for a hole that is close to the actual size that is required.
+Worst fit: This algorithm always takes the biggest available hole, so that the hole when broken off will be large enough to be useful.
+Quick fit: This algorithm keeps different lists for some of the more common sizes requested.
+
+Real world applications of linked list
+
+1. Image viewer – Next and Previous images are linked, so can be accessed by the “next” and “previous” buttons.
+2. Next and Previous page in a web browser – We can access the previous and next “url” searched in a web browser by pressing the “back” and “next” buttons as they are connected as a linked list.
+3. Music Player – Songs in the music player are connected to the previous and next song. You can listen to the songs either from the beginning or end of the list.
+4. Mailing lists: Linked lists have their benefit in email applications as well. Since it is challenging to anticipate numerous lists, maybe a mailer creates a linked list of email addresses before sending a message.
+
