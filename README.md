@@ -82,3 +82,13 @@ Doubly linked lists include nodes that have a data field, “next” field, and 
 
 The browser cache allows you to hit the FORWARD and BACK buttons. Here we ought to maintain a doubly linked list, with URLs as a data field, to permit access in both directions. To go to the earlier URL we will make use of the “prev” field and to go to the subsequent page we will make use of the “next” field.
 
+Circular Linked List
+
+Circular linked lists is singly linked list where the last node, the “next” field implies the first node in the sequence.
+
+![image](https://user-images.githubusercontent.com/81725794/179712546-65b08701-7c34-4ff6-9a8d-a6bce11acb44.png)
+
+Timesharing issues are resolved by the operating system.
+
+In a timesharing environment, the operating system must keep a list of current users and must alternately let every user use a small amount of CPU time, a single user at a time. The operating system will choose a user, allow him/her to use a small amount of CPU time, and then shift to the next user. For this application, there shouldn’t be any NULL pointers unless there is no one demanding CPU time, i.e list is empty.
+
