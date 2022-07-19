@@ -151,5 +151,23 @@ As both linked lists are ordered by the power, we can make use of a two-pointer 
 
 ![image](https://user-images.githubusercontent.com/81725794/179826020-507c86e8-26df-4f10-9975-0d2ce8e3305d.png)
 
+Large-Number-Arithmetic
 
+Large number arithmetic utilizing doubly linked list – the incorporation of the class LargeInt, which makes use of a dynamic physical structure to stow every digit of extremely large integers (for instance, prime numbers that are 70-digits long), and offer arithmetic operations that can be executed on them. Huge integers can be negative or positive(or zero).
+
+In particular, the class contains:
+
+1. A default constructor
+2. Operator functions to overload operators +, -, *, /, %
+3. Operator functions to overload operators ==, <, <=, >, >=
+4. An operator function to overload the operator <<
+5. An operator function to overload the operator >>
+
+Linked allocation of files
+
+A file of enormous size may not be stowed in one place on a disk. Hence, there have to be some means to connect all the scattered pieces of the file together. The application of a linked list lets an effective file allocation procedure in which every block of a file includes a pointer to the file’s text block. The file blocks can be distributed anywhere in the disk space. This suggests that we can evade fragmentation within our disk, as in the case of adjacent allocation.
+
+![image](https://user-images.githubusercontent.com/81725794/179826255-5b3e4812-404e-4164-b75d-d0ee01e3e4ce.png)
+
+This is a much more effective approach, and it averts the unnecessary wastage of space. Also, linked list allocation causes less load on the directory since it just needs to include the starting and finishing pointers of the file.
 
