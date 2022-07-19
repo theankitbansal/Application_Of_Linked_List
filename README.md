@@ -64,5 +64,21 @@ Variations
 
 There are primarily three kinds of linked lists: singly, circular, doubly-linked lists.
 
+Singly Linked List
 
+A singly linked list is a kind of linked list that is unidirectional, meaning, it can be traversed in just one direction from the head to the last node, called the tail.
+
+![image](https://user-images.githubusercontent.com/81725794/179712376-bee4b1fa-fd4f-415f-b312-df1d1ac3f410.png)
+
+Every element in a linked list is regarded as a node. A single node includes data and a pointer to the next node which supports retaining the structure of the list.
+
+The foremost node is termed the head; it directs to the first node of the list and allows us access to each other elements in the list. The final node, also occasionally termed the tail, directs to NULL which assists us in deciding when the list ends. Operations that can be executed on singly-linked lists include insertion, deletion, and traversal.
+
+Doubly Linked List
+
+Doubly linked lists include nodes that have a data field, “next” field, and another link field “prev” pointing to the last node in the sequence.
+
+![image](https://user-images.githubusercontent.com/81725794/179712426-e1fc4bc5-a504-49d3-8b4b-0e7f81fa0adb.png)
+
+The browser cache allows you to hit the FORWARD and BACK buttons. Here we ought to maintain a doubly linked list, with URLs as a data field, to permit access in both directions. To go to the earlier URL we will make use of the “prev” field and to go to the subsequent page we will make use of the “next” field.
 
