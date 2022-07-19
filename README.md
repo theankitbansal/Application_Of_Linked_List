@@ -92,3 +92,23 @@ Timesharing issues are resolved by the operating system.
 
 In a timesharing environment, the operating system must keep a list of current users and must alternately let every user use a small amount of CPU time, a single user at a time. The operating system will choose a user, allow him/her to use a small amount of CPU time, and then shift to the next user. For this application, there shouldn’t be any NULL pointers unless there is no one demanding CPU time, i.e list is empty.
 
+Applications of Linked List
+
+Implementing Stacks
+
+A stack data structure can be accomplished by utilizing a linked list data structure. The stack incorporated with the help of a linked list can function for an infinite number of values. That indicates, the stack incorporated utilizing linked list functions for the variable size of data. Hence, there is no requirement to correct the size at the start of the implementation. The Stack implemented with the help of a linked list can arrange as many data values as we want.
+
+In linked list incorporation of a stack, each new element is put in as a ‘top’ element, which indicates each newly incorporated element is pointed by ‘top’. Whenever we wish to delete an element from the stack, just remove the node which is pointed by ‘top’ by moving ‘top’ to its earlier node in the list. The next field of the first element has to be NULL always.
+
+![image](https://user-images.githubusercontent.com/81725794/179825561-ad29ac25-97e8-4316-a9b2-a3eff2d6bf00.png)
+
+Queues using Linked List
+
+The data structure ‘queue’ can be implemented with the help of a linked list data structure. The queue which is enforced utilizing a linked list can function for an infinite number of values. That implies that a queue employing a linked list can function for the variable size of data. There is no necessity to revise the size at the start of the implementation. The Queue executed with the help of a linked list can arrange as many data values as we want.
+
+In linked list execution of a queue, the node inserted last is pointed always by ‘rear’ and the node inserted first is always indicated by ‘front’.
+
+![image](https://user-images.githubusercontent.com/81725794/179825606-718a9b19-ee8c-4530-88b6-6beb9199fc38.png)
+
+In the above example, the node last inserted is 50 and it is directed by ‘rear’ and the node first inserted is 10 and it is directed by ‘front’. The sequence of elements inserted is 10, 15, 22, and 50.
+
