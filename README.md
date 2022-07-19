@@ -192,3 +192,8 @@ Real world applications of linked list
 3. Music Player – Songs in the music player are connected to the previous and next song. You can listen to the songs either from the beginning or end of the list.
 4. Mailing lists: Linked lists have their benefit in email applications as well. Since it is challenging to anticipate numerous lists, maybe a mailer creates a linked list of email addresses before sending a message.
 
+Conclusion
+
+This Linked List can be defined as a method to gather and stow similar data items. The data structure, Linked List offers a simple application of other data structures like stacks and queues. With various Linked List types, it actually makes insertion and deletion operations of nodes easier. Furthermore, with the Linked List, the memory doesn’t get wasted since the size can be raised or reduced of Linked List during runtime.
+
+Now that you have a fundamental knowledge of linked lists, the uses of them, the different types of linked lists, singly and doubly linked lists, it will be beneficial for your career advancement! If you’re a budding, new programmer, linked lists are a data structure that you will certainly require to comprehend for interviews and whiteboarding.
