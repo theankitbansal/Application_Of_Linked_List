@@ -128,4 +128,28 @@ Example:
 
 ![image](https://user-images.githubusercontent.com/81725794/179825761-90f2e28a-c683-4679-b5c9-d6ea402a53be.png)
 
+Approach :
+
+1. Insertion: To insert, a key is merely hashed to acquire the position in the table (the list where this new key has to be inserted), and then at the head of the doubly linked list, insert the key, utilizing the standard linked list procedures.
+2. Deletion: Go through the list that the key maps to via the hash function and delete the key from that list with the help of the usual linked list procedures.
+
+Portray a Polynomial with a Linked List
+
+We can make use of a linked list to portray a polynomial. In the linked list, every node contains two data fields, namely coefficient, and power. Thus, every node denotes a term of a polynomial. For instance, we can depict the polynomial with a linked list:
+
+![image](https://user-images.githubusercontent.com/81725794/179825896-57726efe-b572-4f64-aa86-cbd1dc995cfc.png)
+
+We can sort a linked list in O(n log n) time, where n is the total number of the linked list nodes.
+
+If two polynomials are added, we can add the coefficients of like terms and develop a new linked list for the consequent polynomial. For instance, we can utilize two linked lists to portray polynomials.
+
+![image](https://user-images.githubusercontent.com/81725794/179825949-7f82da5e-e810-4e7c-bcc4-462d608b9959.png)
+
+When we add them jointly, we can group the like terms and render the result
+
+As both linked lists are ordered by the power, we can make use of a two-pointer technique to combine the two sorted linked list.
+
+![image](https://user-images.githubusercontent.com/81725794/179826020-507c86e8-26df-4f10-9975-0d2ce8e3305d.png)
+
+
 
