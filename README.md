@@ -46,3 +46,23 @@ Properties of Linked List
 6. Linked Lists manages a few of the shortcomings of arrays of owning a fixed size as Linked Lists are dynamic.
 
 
+Time and Space Complexity
+
+Time
+
+Most of the benefits of linked lists can be seen when it comes to the deletion and insertion of nodes in the list. Unlike the dynamic array, deletion and insertion at any point on the list require constant time. Nevertheless, accessing the data in these nodes need linear time owing to the necessity to look through the entire list via pointers. It’s also essential to state that there is no method of optimizing search in linked lists. In the array, at least we could keep the array sorted. Nonetheless, as we don’t have any idea how long the linked list is, there is no way of accomplishing a binary search:
+
+![image](https://user-images.githubusercontent.com/81725794/179712174-33a6f683-d38a-4b0d-9b89-e7de348c0630.png)
+
+Space
+
+Linked lists carry two major chunks of data, namely, the value and the pointer per node. This indicates that the amount of data stowed grows linearly with the number of nodes in the list. Thus, the space complexity of the linked list is linear:
+
+![image](https://user-images.githubusercontent.com/81725794/179712220-37e0f6ff-05d6-49ec-b317-77433589c5f6.png)
+
+Variations
+
+There are primarily three kinds of linked lists: singly, circular, doubly-linked lists.
+
+
+
