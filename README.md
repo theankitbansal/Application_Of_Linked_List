@@ -28,4 +28,22 @@ A linked list can be huge or small, regardless of the size, the components that 
 ![image](https://user-images.githubusercontent.com/81725794/179711473-e8ca2518-1198-4b8d-ba92-2175ddbf08cd.png)
 
 
+This depiction of a linked list shows that every node includes two fields. The start is a special pointer that points to the first node of the linked list The first field comprises data, and the subsequent field includes pointers that point to a different node. Here, the start pointer saves the address of the first node, then we can see a null pointer, and at the end, that declares the end of the Linked List.
+
+Properties of Linked List
+
+1. It can be pictured as a sequence of nodes where every node includes the location of the following node. You can notice this in the diagram given below:
+
+![image](https://user-images.githubusercontent.com/81725794/179711594-286652a3-caf7-4739-a722-4b20ae666706.png)
+
+2. The structure of the node is
+![image](https://user-images.githubusercontent.com/81725794/179711672-fea09470-3d51-4860-90c0-0626fee0782d.png)
+![image](https://user-images.githubusercontent.com/81725794/179711689-b2b061ba-a830-45b8-b16b-206af59e447c.png)
+
+3. The head of the linked list is the first node and via the head, we can perform distinct operations on the linked list. In each linked list question, the reference of the head node of the linked list will be given.
+4. The final node of the linked list implies NULL(None) which suggests that it is the last node.
+5. Unlike arrays, linked list elements are not stowed at adjacent memory locations.
+6. Linked Lists manages a few of the shortcomings of arrays of owning a fixed size as Linked Lists are dynamic.
+
+
 
