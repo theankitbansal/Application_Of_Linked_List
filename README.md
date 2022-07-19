@@ -46,4 +46,3 @@ Properties of Linked List
 6. Linked Lists manages a few of the shortcomings of arrays of owning a fixed size as Linked Lists are dynamic.
 
 
-
